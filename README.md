@@ -1,25 +1,35 @@
-Steps to Update Pod
--------------------
-To Add DoubleNodeOpen Specs Repo to local Cocoapods:
-pod repo add DNOCocoapodsSpecsRepo https://github.com/DoubleNodeOpen/CocoapodsSpecsRepo.git
+# DNBase
 
-For New Install Only:
-pod repo update DNOCocoapodsSpecsRepo
+[![release](https://img.shields.io/github/release/DoubleNodeOpen/Pod_DNBase.svg?style=flat)](http://github.com/DoubleNodeOpen/Pod_DNBase)
 
-1. Check local files
-pod lib lint --sources=git@github.com:DoubleNodeOpen/CocoapodsSpecsRepo.git,master --private
+## Overview
 
-2. Create tag and push to github
+A base collection of DNBase objects, categories and protocols used as the base for DoubleNode Framework.
 
-3. Check repo file
-pod spec lint --sources=git@github.com:DoubleNodeOpen/CocoapodsSpecsRepo.git,master --private
+## Requirements
+* ARC
+* iOS9
 
-4. Final Submit
-pod repo push DNOCocoapodsSpecsRepo DNBase.podspec
+## Example
 
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-Steps to Resource Podfile Pods
-------------------------------
-When changing pod's "path" to/from development mode:
+## Requirements
 
-rm Pods/Manifest.lock && rm Podfile.lock && pod install
+## Installation
+
+DNBase is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following lines to your Podfile:
+
+```ruby
+source 'git@github.com:DoubleNodeOpen/CocoapodsSpecsRepo.git'
+pod "DNBase"
+```
+
+## Author
+
+Darren Ehlers, me@darrenehlers.com
+
+## License
+
+DNBase is available under the Apache License, Version 2.0. See the LICENSE.txt file for more info.

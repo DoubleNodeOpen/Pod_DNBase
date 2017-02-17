@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    A base collection of DNBase objects, categories and protocols used as the base for DoubleNode.
+                    A base collection of DNBase objects, categories and protocols used as the base for DoubleNode Framework.
                    DESC
 
   s.homepage     = "https://github.com/DoubleNodeOpen/Pod_DNBase"

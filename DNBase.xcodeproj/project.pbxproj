@@ -114,6 +114,7 @@
 		6A84E3BA1E5767A800D22551 /* GGMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GGMutableDictionary.m; path = Classes/Vendors/GGMutableDictionary/GGMutableDictionary.m; sourceTree = "<group>"; };
 		6A84E3BC1E5767C100D22551 /* DNBase-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DNBase-Bridging-Header.h"; sourceTree = "<group>"; };
 		6A84E3BD1E576B5F00D22551 /* main.fauxpas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = main.fauxpas.json; path = FauxPasConfig/main.fauxpas.json; sourceTree = "<group>"; };
+		6A84E3BE1E5770A900D22551 /* DEVNOTES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DEVNOTES.md; sourceTree = "<group>"; };
 		9719F65ACBF13D6A0D125DF9 /* Pods-DNBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DNBase/Pods-DNBase.debug.xcconfig"; sourceTree = "<group>"; };
 		A58F5816FFE51F291C176533 /* Pods_DNBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1BBEED7EBFC306B049414FD /* Pods_DNBaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNBaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -239,6 +240,7 @@
 			children = (
 				6A84E37E1E57664000D22551 /* LICENSE.txt */,
 				6A84E3791E57609300D22551 /* README.md */,
+				6A84E3BE1E5770A900D22551 /* DEVNOTES.md */,
 				6A84E3771E57609300D22551 /* DNBase.podspec */,
 				6A84E37A1E57609300D22551 /* StyleSettings.plist */,
 				6A84E3BD1E576B5F00D22551 /* main.fauxpas.json */,
