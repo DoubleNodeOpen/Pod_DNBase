@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635EF38234BE1484D6FC940C /* Pods_DNBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58F5816FFE51F291C176533 /* Pods_DNBase.framework */; };
+		6A84E3441E575FCB00D22551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3431E575FCB00D22551 /* main.m */; };
+		6A84E3471E575FCB00D22551 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3461E575FCB00D22551 /* AppDelegate.m */; };
+		6A84E34A1E575FCB00D22551 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3491E575FCB00D22551 /* ViewController.m */; };
+		6A84E34D1E575FCB00D22551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A84E34B1E575FCB00D22551 /* Main.storyboard */; };
+		6A84E34F1E575FCB00D22551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A84E34E1E575FCB00D22551 /* Assets.xcassets */; };
+		6A84E3521E575FCB00D22551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A84E3501E575FCB00D22551 /* LaunchScreen.storyboard */; };
+		6A84E35D1E575FCB00D22551 /* DNBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E35C1E575FCB00D22551 /* DNBaseTests.m */; };
+		6A84E3681E575FCB00D22551 /* DNBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3671E575FCB00D22551 /* DNBaseUITests.m */; };
+		6A84E3901E57675700D22551 /* DNBAppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3821E57675700D22551 /* DNBAppConstants.m */; };
+		6A84E3911E57675700D22551 /* DNBDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3851E57675700D22551 /* DNBDate.m */; };
+		6A84E3921E57675700D22551 /* DNBGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3871E57675700D22551 /* DNBGradientView.m */; };
+		6A84E3931E57675700D22551 /* DNBGravatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3891E57675700D22551 /* DNBGravatar.m */; };
+		6A84E3941E57675700D22551 /* DNBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E38B1E57675700D22551 /* DNBNavigationController.m */; };
+		6A84E3951E57675700D22551 /* DNBUrlSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E38D1E57675700D22551 /* DNBUrlSessionManager.m */; };
+		6A84E3961E57675700D22551 /* DNBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E38F1E57675700D22551 /* DNBUtilities.m */; };
+		6A84E3AC1E57677800D22551 /* NSDate+DNBPrettyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E39B1E57677800D22551 /* NSDate+DNBPrettyDate.m */; };
+		6A84E3AD1E57677800D22551 /* NSDate+DNBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E39D1E57677800D22551 /* NSDate+DNBUtils.m */; };
+		6A84E3AE1E57677800D22551 /* NSString+DNBContains.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E39F1E57677800D22551 /* NSString+DNBContains.m */; };
+		6A84E3AF1E57677800D22551 /* NSString+DNBHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3A11E57677800D22551 /* NSString+DNBHTML.m */; };
+		6A84E3B01E57677800D22551 /* NSTimer+DNBBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3A31E57677800D22551 /* NSTimer+DNBBlocks.m */; };
+		6A84E3B11E57677800D22551 /* UIAlertController+DNBSupportedInterfaceOrientations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3A51E57677800D22551 /* UIAlertController+DNBSupportedInterfaceOrientations.m */; };
+		6A84E3B21E57677800D22551 /* UIFont+DNBCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3A71E57677800D22551 /* UIFont+DNBCustom.m */; };
+		6A84E3B31E57677800D22551 /* UIView+DNBDropShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3A91E57677800D22551 /* UIView+DNBDropShadow.m */; };
+		6A84E3B41E57677800D22551 /* UIView+DNBPending.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3AB1E57677800D22551 /* UIView+DNBPending.m */; };
+		6A84E3B71E57678100D22551 /* YZNameFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3B61E57678100D22551 /* YZNameFormatter.swift */; };
+		6A84E3BB1E5767A800D22551 /* GGMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3BA1E5767A800D22551 /* GGMutableDictionary.m */; };
+		E4307865E4294787444009C1 /* Pods_DNBaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BBEED7EBFC306B049414FD /* Pods_DNBaseTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A84E3591E575FCB00D22551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A84E3371E575FCB00D22551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A84E33E1E575FCB00D22551;
+			remoteInfo = DNBase;
+		};
+		6A84E3641E575FCB00D22551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A84E3371E575FCB00D22551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A84E33E1E575FCB00D22551;
+			remoteInfo = DNBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EAA9571BD353DFAD6B19304 /* Pods-DNBaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNBaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DNBaseTests/Pods-DNBaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A84E33F1E575FCB00D22551 /* DNBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A84E3431E575FCB00D22551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A84E3451E575FCB00D22551 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A84E3461E575FCB00D22551 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A84E3481E575FCB00D22551 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A84E3491E575FCB00D22551 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A84E34C1E575FCB00D22551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A84E34E1E575FCB00D22551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A84E3511E575FCB00D22551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A84E3531E575FCB00D22551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A84E3581E575FCB00D22551 /* DNBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A84E35C1E575FCB00D22551 /* DNBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNBaseTests.m; sourceTree = "<group>"; };
+		6A84E35E1E575FCB00D22551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A84E3631E575FCB00D22551 /* DNBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A84E3671E575FCB00D22551 /* DNBaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNBaseUITests.m; sourceTree = "<group>"; };
+		6A84E3691E575FCB00D22551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A84E3771E57609300D22551 /* DNBase.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DNBase.podspec; sourceTree = "<group>"; };
+		6A84E3791E57609300D22551 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6A84E37A1E57609300D22551 /* StyleSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StyleSettings.plist; sourceTree = "<group>"; };
+		6A84E37E1E57664000D22551 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		6A84E3811E57675700D22551 /* DNBAppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNBAppConstants.h; path = Classes/DNBAppConstants.h; sourceTree = "<group>"; };
+		6A84E3821E57675700D22551 /* DNBAppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNBAppConstants.m; path = Classes/DNBAppConstants.m; sourceTree = "<group>"; };
+		6A84E3831E57675700D22551 /* DNBApplicationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNBApplicationProtocol.h; path = Classes/DNBApplicationProtocol.h; sourceTree = "<group>"; };
+		6A84E3841E57675700D22551 /* DNBDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNBDate.h; path = Classes/DNBDate.h; sourceTree = "<group>"; };
+		6A84E3851E57675700D22551 /* DNBDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNBDate.m; path = Classes/DNBDate.m; sourceTree = "<group>"; };
+		6A84E3861E57675700D22551 /* DNBGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNBGradientView.h; path = Classes/DNBGradientView.h; sourceTree = "<group>"; };
+		6A84E3871E57675700D22551 /* DNBGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNBGradientView.m; path = Classes/DNBGradientView.m; sourceTree = "<group>"; };
+		6A84E3881E57675700D22551 /* DNBGravatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNBGravatar.h; path = Classes/DNBGravatar.h; sourceTree = "<group>"; };
+		6A84E3891E57675700D22551 /* DNBGravatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNBGravatar.m; path = Classes/DNBGravatar.m; sourceTree = "<group>"; };
+		6A84E38A1E57675700D22551 /* DNBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNBNavigationController.h; path = Classes/DNBNavigationController.h; sourceTree = "<group>"; };
+		6A84E38B1E57675700D22551 /* DNBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNBNavigationController.m; path = Classes/DNBNavigationController.m; sourceTree = "<group>"; };
+		6A84E38C1E57675700D22551 /* DNBUrlSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNBUrlSessionManager.h; path = Classes/DNBUrlSessionManager.h; sourceTree = "<group>"; };
+		6A84E38D1E57675700D22551 /* DNBUrlSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNBUrlSessionManager.m; path = Classes/DNBUrlSessionManager.m; sourceTree = "<group>"; };
+		6A84E38E1E57675700D22551 /* DNBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNBUtilities.h; path = Classes/DNBUtilities.h; sourceTree = "<group>"; };
+		6A84E38F1E57675700D22551 /* DNBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNBUtilities.m; path = Classes/DNBUtilities.m; sourceTree = "<group>"; };
+		6A84E39A1E57677800D22551 /* NSDate+DNBPrettyDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+DNBPrettyDate.h"; path = "Classes/Categories/NSDate+DNBPrettyDate.h"; sourceTree = "<group>"; };
+		6A84E39B1E57677800D22551 /* NSDate+DNBPrettyDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DNBPrettyDate.m"; path = "Classes/Categories/NSDate+DNBPrettyDate.m"; sourceTree = "<group>"; };
+		6A84E39C1E57677800D22551 /* NSDate+DNBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+DNBUtils.h"; path = "Classes/Categories/NSDate+DNBUtils.h"; sourceTree = "<group>"; };
+		6A84E39D1E57677800D22551 /* NSDate+DNBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DNBUtils.m"; path = "Classes/Categories/NSDate+DNBUtils.m"; sourceTree = "<group>"; };
+		6A84E39E1E57677800D22551 /* NSString+DNBContains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+DNBContains.h"; path = "Classes/Categories/NSString+DNBContains.h"; sourceTree = "<group>"; };
+		6A84E39F1E57677800D22551 /* NSString+DNBContains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DNBContains.m"; path = "Classes/Categories/NSString+DNBContains.m"; sourceTree = "<group>"; };
+		6A84E3A01E57677800D22551 /* NSString+DNBHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+DNBHTML.h"; path = "Classes/Categories/NSString+DNBHTML.h"; sourceTree = "<group>"; };
+		6A84E3A11E57677800D22551 /* NSString+DNBHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DNBHTML.m"; path = "Classes/Categories/NSString+DNBHTML.m"; sourceTree = "<group>"; };
+		6A84E3A21E57677800D22551 /* NSTimer+DNBBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTimer+DNBBlocks.h"; path = "Classes/Categories/NSTimer+DNBBlocks.h"; sourceTree = "<group>"; };
+		6A84E3A31E57677800D22551 /* NSTimer+DNBBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+DNBBlocks.m"; path = "Classes/Categories/NSTimer+DNBBlocks.m"; sourceTree = "<group>"; };
+		6A84E3A41E57677800D22551 /* UIAlertController+DNBSupportedInterfaceOrientations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+DNBSupportedInterfaceOrientations.h"; path = "Classes/Categories/UIAlertController+DNBSupportedInterfaceOrientations.h"; sourceTree = "<group>"; };
+		6A84E3A51E57677800D22551 /* UIAlertController+DNBSupportedInterfaceOrientations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+DNBSupportedInterfaceOrientations.m"; path = "Classes/Categories/UIAlertController+DNBSupportedInterfaceOrientations.m"; sourceTree = "<group>"; };
+		6A84E3A61E57677800D22551 /* UIFont+DNBCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+DNBCustom.h"; path = "Classes/Categories/UIFont+DNBCustom.h"; sourceTree = "<group>"; };
+		6A84E3A71E57677800D22551 /* UIFont+DNBCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+DNBCustom.m"; path = "Classes/Categories/UIFont+DNBCustom.m"; sourceTree = "<group>"; };
+		6A84E3A81E57677800D22551 /* UIView+DNBDropShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DNBDropShadow.h"; path = "Classes/Categories/UIView+DNBDropShadow.h"; sourceTree = "<group>"; };
+		6A84E3A91E57677800D22551 /* UIView+DNBDropShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DNBDropShadow.m"; path = "Classes/Categories/UIView+DNBDropShadow.m"; sourceTree = "<group>"; };
+		6A84E3AA1E57677800D22551 /* UIView+DNBPending.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DNBPending.h"; path = "Classes/Categories/UIView+DNBPending.h"; sourceTree = "<group>"; };
+		6A84E3AB1E57677800D22551 /* UIView+DNBPending.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DNBPending.m"; path = "Classes/Categories/UIView+DNBPending.m"; sourceTree = "<group>"; };
+		6A84E3B61E57678100D22551 /* YZNameFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YZNameFormatter.swift; path = Classes/Misc/YZNameFormatter.swift; sourceTree = "<group>"; };
+		6A84E3B91E5767A800D22551 /* GGMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGMutableDictionary.h; path = Classes/Vendors/GGMutableDictionary/GGMutableDictionary.h; sourceTree = "<group>"; };
+		6A84E3BA1E5767A800D22551 /* GGMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GGMutableDictionary.m; path = Classes/Vendors/GGMutableDictionary/GGMutableDictionary.m; sourceTree = "<group>"; };
+		6A84E3BC1E5767C100D22551 /* DNBase-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DNBase-Bridging-Header.h"; sourceTree = "<group>"; };
+		6A84E3BD1E576B5F00D22551 /* main.fauxpas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = main.fauxpas.json; path = FauxPasConfig/main.fauxpas.json; sourceTree = "<group>"; };
+		9719F65ACBF13D6A0D125DF9 /* Pods-DNBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DNBase/Pods-DNBase.debug.xcconfig"; sourceTree = "<group>"; };
+		A58F5816FFE51F291C176533 /* Pods_DNBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BBEED7EBFC306B049414FD /* Pods_DNBaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNBaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9B69C396DD9F93528E29F9 /* Pods-DNBaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNBaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DNBaseTests/Pods-DNBaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4440D480CE397F89093C7BB /* Pods-DNBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-DNBase/Pods-DNBase.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A84E33C1E575FCB00D22551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635EF38234BE1484D6FC940C /* Pods_DNBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A84E3551E575FCB00D22551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4307865E4294787444009C1 /* Pods_DNBaseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A84E3601E575FCB00D22551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1152F9A8716D167DBCAC7C18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A58F5816FFE51F291C176533 /* Pods_DNBase.framework */,
+				B1BBEED7EBFC306B049414FD /* Pods_DNBaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5724EF8F2ECAD0F9F36A4C00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9719F65ACBF13D6A0D125DF9 /* Pods-DNBase.debug.xcconfig */,
+				E4440D480CE397F89093C7BB /* Pods-DNBase.release.xcconfig */,
+				DA9B69C396DD9F93528E29F9 /* Pods-DNBaseTests.debug.xcconfig */,
+				0EAA9571BD353DFAD6B19304 /* Pods-DNBaseTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A84E3361E575FCB00D22551 = {
+			isa = PBXGroup;
+			children = (
+				6A84E3751E57608000D22551 /* Cocoapod */,
+				6A84E3411E575FCB00D22551 /* DNBase */,
+				6A84E35B1E575FCB00D22551 /* DNBaseTests */,
+				6A84E3661E575FCB00D22551 /* DNBaseUITests */,
+				6A84E3401E575FCB00D22551 /* Products */,
+				5724EF8F2ECAD0F9F36A4C00 /* Pods */,
+				1152F9A8716D167DBCAC7C18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A84E3401E575FCB00D22551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E33F1E575FCB00D22551 /* DNBase.app */,
+				6A84E3581E575FCB00D22551 /* DNBaseTests.xctest */,
+				6A84E3631E575FCB00D22551 /* DNBaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A84E3411E575FCB00D22551 /* DNBase */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E3BC1E5767C100D22551 /* DNBase-Bridging-Header.h */,
+				6A84E3451E575FCB00D22551 /* AppDelegate.h */,
+				6A84E3461E575FCB00D22551 /* AppDelegate.m */,
+				6A84E3481E575FCB00D22551 /* ViewController.h */,
+				6A84E3491E575FCB00D22551 /* ViewController.m */,
+				6A84E34B1E575FCB00D22551 /* Main.storyboard */,
+				6A84E34E1E575FCB00D22551 /* Assets.xcassets */,
+				6A84E3501E575FCB00D22551 /* LaunchScreen.storyboard */,
+				6A84E3531E575FCB00D22551 /* Info.plist */,
+				6A84E3421E575FCB00D22551 /* Supporting Files */,
+			);
+			path = DNBase;
+			sourceTree = "<group>";
+		};
+		6A84E3421E575FCB00D22551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E3431E575FCB00D22551 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A84E35B1E575FCB00D22551 /* DNBaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E35C1E575FCB00D22551 /* DNBaseTests.m */,
+				6A84E35E1E575FCB00D22551 /* Info.plist */,
+			);
+			path = DNBaseTests;
+			sourceTree = "<group>";
+		};
+		6A84E3661E575FCB00D22551 /* DNBaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E3671E575FCB00D22551 /* DNBaseUITests.m */,
+				6A84E3691E575FCB00D22551 /* Info.plist */,
+			);
+			path = DNBaseUITests;
+			sourceTree = "<group>";
+		};
+		6A84E3751E57608000D22551 /* Cocoapod */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E37E1E57664000D22551 /* LICENSE.txt */,
+				6A84E3791E57609300D22551 /* README.md */,
+				6A84E3771E57609300D22551 /* DNBase.podspec */,
+				6A84E37A1E57609300D22551 /* StyleSettings.plist */,
+				6A84E3BD1E576B5F00D22551 /* main.fauxpas.json */,
+				6A84E3761E57608800D22551 /* Classes */,
+			);
+			name = Cocoapod;
+			sourceTree = "<group>";
+		};
+		6A84E3761E57608800D22551 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E3971E57675F00D22551 /* Categories */,
+				6A84E3981E57676500D22551 /* Misc */,
+				6A84E3991E57676900D22551 /* Vendors */,
+				6A84E3811E57675700D22551 /* DNBAppConstants.h */,
+				6A84E3821E57675700D22551 /* DNBAppConstants.m */,
+				6A84E3831E57675700D22551 /* DNBApplicationProtocol.h */,
+				6A84E3841E57675700D22551 /* DNBDate.h */,
+				6A84E3851E57675700D22551 /* DNBDate.m */,
+				6A84E3861E57675700D22551 /* DNBGradientView.h */,
+				6A84E3871E57675700D22551 /* DNBGradientView.m */,
+				6A84E3881E57675700D22551 /* DNBGravatar.h */,
+				6A84E3891E57675700D22551 /* DNBGravatar.m */,
+				6A84E38A1E57675700D22551 /* DNBNavigationController.h */,
+				6A84E38B1E57675700D22551 /* DNBNavigationController.m */,
+				6A84E38C1E57675700D22551 /* DNBUrlSessionManager.h */,
+				6A84E38D1E57675700D22551 /* DNBUrlSessionManager.m */,
+				6A84E38E1E57675700D22551 /* DNBUtilities.h */,
+				6A84E38F1E57675700D22551 /* DNBUtilities.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		6A84E3971E57675F00D22551 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E39A1E57677800D22551 /* NSDate+DNBPrettyDate.h */,
+				6A84E39B1E57677800D22551 /* NSDate+DNBPrettyDate.m */,
+				6A84E39C1E57677800D22551 /* NSDate+DNBUtils.h */,
+				6A84E39D1E57677800D22551 /* NSDate+DNBUtils.m */,
+				6A84E39E1E57677800D22551 /* NSString+DNBContains.h */,
+				6A84E39F1E57677800D22551 /* NSString+DNBContains.m */,
+				6A84E3A01E57677800D22551 /* NSString+DNBHTML.h */,
+				6A84E3A11E57677800D22551 /* NSString+DNBHTML.m */,
+				6A84E3A21E57677800D22551 /* NSTimer+DNBBlocks.h */,
+				6A84E3A31E57677800D22551 /* NSTimer+DNBBlocks.m */,
+				6A84E3A41E57677800D22551 /* UIAlertController+DNBSupportedInterfaceOrientations.h */,
+				6A84E3A51E57677800D22551 /* UIAlertController+DNBSupportedInterfaceOrientations.m */,
+				6A84E3A61E57677800D22551 /* UIFont+DNBCustom.h */,
+				6A84E3A71E57677800D22551 /* UIFont+DNBCustom.m */,
+				6A84E3A81E57677800D22551 /* UIView+DNBDropShadow.h */,
+				6A84E3A91E57677800D22551 /* UIView+DNBDropShadow.m */,
+				6A84E3AA1E57677800D22551 /* UIView+DNBPending.h */,
+				6A84E3AB1E57677800D22551 /* UIView+DNBPending.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		6A84E3981E57676500D22551 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E3B61E57678100D22551 /* YZNameFormatter.swift */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		6A84E3991E57676900D22551 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E3B81E57679700D22551 /* GGMutableDictionary */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		6A84E3B81E57679700D22551 /* GGMutableDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E3B91E5767A800D22551 /* GGMutableDictionary.h */,
+				6A84E3BA1E5767A800D22551 /* GGMutableDictionary.m */,
+			);
+			name = GGMutableDictionary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A84E33E1E575FCB00D22551 /* DNBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A84E36C1E575FCB00D22551 /* Build configuration list for PBXNativeTarget "DNBase" */;
+			buildPhases = (
+				D43D89FEDEBEBA2313465CAC /* [CP] Check Pods Manifest.lock */,
+				6A84E37F1E5766DA00D22551 /* Objective-Clean */,
+				6A84E3801E5766F700D22551 /* FauxPas Checker */,
+				6A84E33B1E575FCB00D22551 /* Sources */,
+				6A84E33C1E575FCB00D22551 /* Frameworks */,
+				6A84E33D1E575FCB00D22551 /* Resources */,
+				E798CC27AA6F2C82E6B7D184 /* [CP] Embed Pods Frameworks */,
+				6EF159E015A16FDEDCE2FD8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNBase;
+			productName = DNBase;
+			productReference = 6A84E33F1E575FCB00D22551 /* DNBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A84E3571E575FCB00D22551 /* DNBaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A84E36F1E575FCB00D22551 /* Build configuration list for PBXNativeTarget "DNBaseTests" */;
+			buildPhases = (
+				0C2A1DE57605B1E03EE9D4DF /* [CP] Check Pods Manifest.lock */,
+				6A84E3541E575FCB00D22551 /* Sources */,
+				6A84E3551E575FCB00D22551 /* Frameworks */,
+				6A84E3561E575FCB00D22551 /* Resources */,
+				BBC9B1F05C6A329157B854CB /* [CP] Embed Pods Frameworks */,
+				DC39074BF7A2CB625FBB25A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A84E35A1E575FCB00D22551 /* PBXTargetDependency */,
+			);
+			name = DNBaseTests;
+			productName = DNBaseTests;
+			productReference = 6A84E3581E575FCB00D22551 /* DNBaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A84E3621E575FCB00D22551 /* DNBaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A84E3721E575FCB00D22551 /* Build configuration list for PBXNativeTarget "DNBaseUITests" */;
+			buildPhases = (
+				6A84E35F1E575FCB00D22551 /* Sources */,
+				6A84E3601E575FCB00D22551 /* Frameworks */,
+				6A84E3611E575FCB00D22551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A84E3651E575FCB00D22551 /* PBXTargetDependency */,
+			);
+			name = DNBaseUITests;
+			productName = DNBaseUITests;
+			productReference = 6A84E3631E575FCB00D22551 /* DNBaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A84E3371E575FCB00D22551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DoubleNode.com;
+				TargetAttributes = {
+					6A84E33E1E575FCB00D22551 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T864D3RXRZ;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					6A84E3571E575FCB00D22551 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T864D3RXRZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A84E33E1E575FCB00D22551;
+					};
+					6A84E3621E575FCB00D22551 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T864D3RXRZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A84E33E1E575FCB00D22551;
+					};
+				};
+			};
+			buildConfigurationList = 6A84E33A1E575FCB00D22551 /* Build configuration list for PBXProject "DNBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A84E3361E575FCB00D22551;
+			productRefGroup = 6A84E3401E575FCB00D22551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A84E33E1E575FCB00D22551 /* DNBase */,
+				6A84E3571E575FCB00D22551 /* DNBaseTests */,
+				6A84E3621E575FCB00D22551 /* DNBaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A84E33D1E575FCB00D22551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A84E3521E575FCB00D22551 /* LaunchScreen.storyboard in Resources */,
+				6A84E34F1E575FCB00D22551 /* Assets.xcassets in Resources */,
+				6A84E34D1E575FCB00D22551 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A84E3561E575FCB00D22551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A84E3611E575FCB00D22551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C2A1DE57605B1E03EE9D4DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A84E37F1E5766DA00D22551 /* Objective-Clean */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Objective-Clean";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "[[ ${SKIP_OBJCLEAN} == 1 ]] && exit 0\n \n OBJCLEAN_PATH=\"${LOCAL_APPS_DIR}/Objective-Clean.app\"\n if [[ -d \"${OBJCLEAN_PATH}\" ]]; then\n echo \"${OBJCLEAN_PATH}\"/Contents/Resources/ObjClean.app/Contents/MacOS/ObjClean \"${SRCROOT}\"?!Pods,!Rollout-ios-SDK,!BuddyBuildSDK.framework,!Crashlytics.framework,!Fabric.framework,!Optimizely.framework,!DigitsKit.framework,!TwitterKit.framework,!TwitterCore.framework,!PocketBrew/Vendors\n \"${OBJCLEAN_PATH}\"/Contents/Resources/ObjClean.app/Contents/MacOS/ObjClean \"${SRCROOT}\"?!Pods,!Rollout-ios-SDK,!BuddyBuildSDK.framework,!Crashlytics.framework,!Fabric.framework,!Optimizely.framework,!DigitsKit.framework,!TwitterKit.framework,!TwitterCore.framework,!PocketBrew/Vendors\n else\n echo \"warning: Objective-Clean was not found at '${OBJCLEAN_PATH}'\"\n fi\n";
+		};
+		6A84E3801E5766F700D22551 /* FauxPas Checker */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "FauxPas Checker";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "[[ ${FAUXPAS_SKIP} == 1 ]] && exit 0\n\nFAUXPAS_PATH=\"/usr/local/bin/fauxpas\"\nif [[ -f \"${FAUXPAS_PATH}\" ]]; then\necho \"${FAUXPAS_PATH}\" check-xcode -c \"${SRCROOT}/FauxPasConfig/main.fauxpas.json\"\n\"${FAUXPAS_PATH}\" check-xcode -c \"${SRCROOT}/FauxPasConfig/main.fauxpas.json\"\nelse\necho \"warning: Faux Pas was not found at '${FAUXPAS_PATH}'\"\nfi\n";
+		};
+		6EF159E015A16FDEDCE2FD8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DNBase/Pods-DNBase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC9B1F05C6A329157B854CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DNBaseTests/Pods-DNBaseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D43D89FEDEBEBA2313465CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC39074BF7A2CB625FBB25A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DNBaseTests/Pods-DNBaseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E798CC27AA6F2C82E6B7D184 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DNBase/Pods-DNBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A84E33B1E575FCB00D22551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A84E34A1E575FCB00D22551 /* ViewController.m in Sources */,
+				6A84E3961E57675700D22551 /* DNBUtilities.m in Sources */,
+				6A84E3471E575FCB00D22551 /* AppDelegate.m in Sources */,
+				6A84E3AC1E57677800D22551 /* NSDate+DNBPrettyDate.m in Sources */,
+				6A84E3931E57675700D22551 /* DNBGravatar.m in Sources */,
+				6A84E3AF1E57677800D22551 /* NSString+DNBHTML.m in Sources */,
+				6A84E3B01E57677800D22551 /* NSTimer+DNBBlocks.m in Sources */,
+				6A84E3951E57675700D22551 /* DNBUrlSessionManager.m in Sources */,
+				6A84E3B71E57678100D22551 /* YZNameFormatter.swift in Sources */,
+				6A84E3901E57675700D22551 /* DNBAppConstants.m in Sources */,
+				6A84E3941E57675700D22551 /* DNBNavigationController.m in Sources */,
+				6A84E3921E57675700D22551 /* DNBGradientView.m in Sources */,
+				6A84E3911E57675700D22551 /* DNBDate.m in Sources */,
+				6A84E3AE1E57677800D22551 /* NSString+DNBContains.m in Sources */,
+				6A84E3B21E57677800D22551 /* UIFont+DNBCustom.m in Sources */,
+				6A84E3B31E57677800D22551 /* UIView+DNBDropShadow.m in Sources */,
+				6A84E3BB1E5767A800D22551 /* GGMutableDictionary.m in Sources */,
+				6A84E3441E575FCB00D22551 /* main.m in Sources */,
+				6A84E3B41E57677800D22551 /* UIView+DNBPending.m in Sources */,
+				6A84E3AD1E57677800D22551 /* NSDate+DNBUtils.m in Sources */,
+				6A84E3B11E57677800D22551 /* UIAlertController+DNBSupportedInterfaceOrientations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A84E3541E575FCB00D22551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A84E35D1E575FCB00D22551 /* DNBaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A84E35F1E575FCB00D22551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A84E3681E575FCB00D22551 /* DNBaseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A84E35A1E575FCB00D22551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A84E33E1E575FCB00D22551 /* DNBase */;
+			targetProxy = 6A84E3591E575FCB00D22551 /* PBXContainerItemProxy */;
+		};
+		6A84E3651E575FCB00D22551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A84E33E1E575FCB00D22551 /* DNBase */;
+			targetProxy = 6A84E3641E575FCB00D22551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A84E34B1E575FCB00D22551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A84E34C1E575FCB00D22551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A84E3501E575FCB00D22551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A84E3511E575FCB00D22551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A84E36A1E575FCB00D22551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A84E36B1E575FCB00D22551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A84E36D1E575FCB00D22551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9719F65ACBF13D6A0D125DF9 /* Pods-DNBase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = DNBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoubleNode.DNBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DNBase/DNBase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6A84E36E1E575FCB00D22551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4440D480CE397F89093C7BB /* Pods-DNBase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = DNBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoubleNode.DNBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DNBase/DNBase-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6A84E3701E575FCB00D22551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9B69C396DD9F93528E29F9 /* Pods-DNBaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = DNBaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoubleNode.DNBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNBase.app/DNBase";
+			};
+			name = Debug;
+		};
+		6A84E3711E575FCB00D22551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EAA9571BD353DFAD6B19304 /* Pods-DNBaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = DNBaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoubleNode.DNBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNBase.app/DNBase";
+			};
+			name = Release;
+		};
+		6A84E3731E575FCB00D22551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = DNBaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoubleNode.DNBaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DNBase;
+			};
+			name = Debug;
+		};
+		6A84E3741E575FCB00D22551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = DNBaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoubleNode.DNBaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DNBase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A84E33A1E575FCB00D22551 /* Build configuration list for PBXProject "DNBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A84E36A1E575FCB00D22551 /* Debug */,
+				6A84E36B1E575FCB00D22551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A84E36C1E575FCB00D22551 /* Build configuration list for PBXNativeTarget "DNBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A84E36D1E575FCB00D22551 /* Debug */,
+				6A84E36E1E575FCB00D22551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A84E36F1E575FCB00D22551 /* Build configuration list for PBXNativeTarget "DNBaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A84E3701E575FCB00D22551 /* Debug */,
+				6A84E3711E575FCB00D22551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A84E3721E575FCB00D22551 /* Build configuration list for PBXNativeTarget "DNBaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A84E3731E575FCB00D22551 /* Debug */,
+				6A84E3741E575FCB00D22551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A84E3371E575FCB00D22551 /* Project object */;
+}
