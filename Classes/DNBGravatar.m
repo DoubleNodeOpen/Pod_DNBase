@@ -1,9 +1,9 @@
 //
 //  DNBGravatar.h
-//  DoubleNode Core
+//  DoubleNodeOpen Base
 //
 //  Created by Darren Ehlers on 2017/02/17.
-//  Copyright © 2016 Darren Ehlers and DoubleNode, LLC. All rights reserved.
+//  Copyright © 2017 Darren Ehlers and DoubleNode, LLC. All rights reserved.
 //
 //  Derived from work originally created by Rudd Fawcett
 //  Portions Copyright (c) 2013 Rudd Fawcett.

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DNBase"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A base collection of DNBase objects, categories and protocols."
 
   # This description is used to generate tags and improve search results.

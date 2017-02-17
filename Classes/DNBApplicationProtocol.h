@@ -1,9 +1,9 @@
 //
 //  DNBApplicationProtocol.h
-//  DoubleNode Core
+//  DoubleNodeOpen Base
 //
 //  Created by Darren Ehlers on 2017/02/17.
-//  Copyright © 2016 Darren Ehlers and DoubleNode, LLC. All rights reserved.
+//  Copyright © 2017 Darren Ehlers and DoubleNode, LLC. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
